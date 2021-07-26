@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calender</title>
+    <style>
+        .calender {
+            height: 500px;
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            grid-template-rows: 2em repeat(5, 1fr);
+            grid-gap: 1em;
+        }
+
+        .date-box,
+        .day {
+            background-color: cornflowerblue;
+            font-size: 3em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+        }
+
+        .other-month {
+            background-color: darkgrey;
+        }
+
+        .day {
+            background-color: lightpink;
+            font-size: 2em;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>My awesome calender</h1>
+    <div class="calender">
+        <div class="day">S</div>
+        <div class="day">M</div>
+        <div class="day">T</div>
+        <div class="day">W</div>
+        <div class="day">T</div>
+        <div class="day">F</div>
+        <div class="day">S</div>
+        <div class="date-box other-month">29</div>
+        <div class="date-box other-month">30</div>
+        <div class="date-box">1</div>
+        <div class="date-box">2</div>
+        <div class="date-box">3</div>
+        <div class="date-box">4</div>
+        <div class="date-box">5</div>
+        <div class="date-box">6</div>
+        <div class="date-box">7</div>
+        <div class="date-box">8</div>
+        <div class="date-box">9</div>
+        <div class="date-box">10</div>
+        <div class="date-box">11</div>
+        <div class="date-box">12</div>
+        <div class="date-box">13</div>
+        <div class="date-box">14</div>
+        <div class="date-box">15</div>
+        <div class="date-box">16</div>
+        <div class="date-box">17</div>
+        <div class="date-box">18</div>
+        <div class="date-box">19</div>
+        <div class="date-box">20</div>
+        <div class="date-box">21</div>
+        <div class="date-box">22</div>
+        <div class="date-box">23</div>
+        <div class="date-box">24</div>
+        <div class="date-box">25</div>
+        <div class="date-box">26</div>
+        <div class="date-box">27</div>
+        <div class="date-box">28</div>
+        <div class="date-box">29</div>
+        <div class="date-box">30</div>
+        <div class="date-box other-month">1</div>
+        <div class="date-box other-month">2</div>
+        <div class="date-box other-month">3</div>
+
+    </div>
+</body>
+
+</html>
